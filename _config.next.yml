@@ -126,7 +126,11 @@ sidebar:
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
-  display: post
+  # post   → 仅在有索引的帖子中显示侧边栏。
+  # always → 在所有页面中显示侧边栏。
+  # hide   → 在所有页面中隐藏（但可以由用户手动打开）。
+  # remove → 完全删除侧边栏。
+  display: hide
 
   # Sidebar padding in pixels.
   padding: 18

@@ -112,6 +112,9 @@ theme_config:
     enable: true
   # Remove unnecessary files after hexo generate.
   minify: false
+  sidebar:
+    position: left #right/left
+    display: hide
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
