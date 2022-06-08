@@ -4,9 +4,9 @@
 
 # Site
 title: Yeelightの月湾
-subtitle: 我只想观星赏月，与你
-description: 与其凋零，不如燃烧
-keywords: #网站的关键词。支持多个关键词。
+subtitle: 与其凋零，不如燃烧
+description: 我只想观星赏月，与你
+keywords: C\C++, Java #网站的关键词。支持多个关键词。
 author: Yeelight
 language: zh-CN
 timezone: Asia/Shanghai
@@ -99,6 +99,7 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+
 ## Themes: https://hexo.io/themes/
 theme: next
 theme_config:
