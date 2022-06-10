@@ -93,13 +93,13 @@ open_graph:
 # External url should start with http:// or https://
 menu:
   home: / || fa  fa-duotone fa-house-user
-  about: /about/ || fa fa-duotone fa-address-card
   tags: /tags/ || fa fa-duotone fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-light fa-box-open
   schedule: /schedule/ || fa fa-regular fa-calendar-check
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
+  about: /about/ || fa fa-duotone fa-address-card
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -164,6 +164,8 @@ social:
   YouTube: https://www.youtube.com/channel/UCZsE4g_WIh-KRpjCeF4cABA || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
+  #QQ:
+  #WeChat:
 
 social_icons:
   enable: true
@@ -178,7 +180,7 @@ links_settings:
   layout: block
 
 links:
-  #Title: https://example.com
+  #Title1: https://example.com
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
@@ -199,7 +201,7 @@ toc:
 # ---------------------------------------------------------------
 
 # Show multilingual switcher in footer.
-language_switcher: false
+language_switcher: true
 
 footer:
   # Specify the year when the site was setup. If not defined, current year will be used.
@@ -255,7 +257,7 @@ post_meta:
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
   separated_meta: true
-  item_text_total: false
+  item_text_total: true
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -342,7 +344,7 @@ text_align:
   mobile: justify
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Browser header panel color.
 theme_color:
@@ -374,20 +376,20 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: left | right
   start_at: left
   # Available values: top | bottom
-  position: top
+  position: bottom
   reversed: false
-  color: "#37c6c0"
-  height: 3px
+  color: "#DAA520"
+  height: 6px
 
 # Bookmark Support
 bookmark:

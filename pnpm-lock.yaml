@@ -14,6 +14,7 @@ specifiers:
   hexo-server: ^3.0.0
   hexo-theme-keep: ^3.4.5
   hexo-theme-landscape: ^0.0.3
+  hexo-word-counter: ^0.0.3
   shelljs: ^0.8.5
 
 dependencies:
@@ -30,6 +31,7 @@ dependencies:
   hexo-server: 3.0.0
   hexo-theme-keep: 3.4.5
   hexo-theme-landscape: 0.0.3
+  hexo-word-counter: 0.0.3
   shelljs: 0.8.5
 
 packages:
@@ -406,6 +408,13 @@ packages:
       webidl-conversions: 7.0.0
     dev: false
 
+  /domhandler/3.3.0:
+    resolution: {integrity: sha512-J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA==}
+    engines: {node: '>= 4'}
+    dependencies:
+      domelementtype: 2.3.0
+    dev: false
+
   /domhandler/4.3.1:
     resolution: {integrity: sha512-GrwoxYN+uWlzO8uhUXRl0P+kHE4GtVPfYzVLcUxPL7KNdHKj66vvlhiweIHqYYXWlw+T8iLMp42Lm67ghw4WMQ==}
     engines: {node: '>= 4'}
@@ -755,6 +764,21 @@ packages:
     resolution: {integrity: sha512-b0Di+TUVs4ESrNX4ULEh9uQmADpO6kr10rIJ2OGZM8suNQNFKdxn+vJUjnLfKkCPJAfVmS7/S83KCNYe4tpoNw==}
     dev: false
 
+  /hexo-util/2.4.0:
+    resolution: {integrity: sha512-IPQvAyn0cznYMU2gskMiZ6LZEvN7wHNusrJoYxrir4f7S7POpZeDTBswiko9R1qqd+/hu07wUYZdm4ceTTCEaA==}
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      bluebird: 3.7.2
+      camel-case: 4.1.2
+      cross-spawn: 7.0.3
+      deepmerge: 4.2.2
+      highlight.js: 10.7.3
+      htmlparser2: 4.1.0
+      prismjs: 1.28.0
+      strip-indent: 3.0.0
+      striptags: 3.2.0
+    dev: false
+
   /hexo-util/2.6.1:
     resolution: {integrity: sha512-xj1jUrId2qTe8L/tRizWWRl+j7X1Zzh5rCVtffboOU0p/EfbPomxIxDvntTHT3fcqgvLHsncqJF9V5j7+buOqA==}
     engines: {node: '>=12.4.0'}
@@ -767,6 +791,12 @@ packages:
       htmlparser2: 7.2.0
       prismjs: 1.28.0
       strip-indent: 3.0.0
+    dev: false
+
+  /hexo-word-counter/0.0.3:
+    resolution: {integrity: sha512-VImhZ9m2RFoGDwKCkfNodogHgGmN7JLa1OZQ/N9gW0SpZDyOwP4jKAlWplzbAVdwK/CF3VQfKEeDzfsTbjcKTQ==}
+    dependencies:
+      hexo-util: 2.4.0
     dev: false
 
   /hexo/6.2.0:
@@ -802,6 +832,10 @@ packages:
       - chokidar
     dev: false
 
+  /highlight.js/10.7.3:
+    resolution: {integrity: sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==}
+    dev: false
+
   /highlight.js/11.5.1:
     resolution: {integrity: sha512-LKzHqnxr4CrD2YsNoIf/o5nJ09j4yi/GcH5BnYz9UnVpZdS4ucMgvP61TDty5xJcFGRjnH4DpujkS9bHT3hq0Q==}
     engines: {node: '>=12.0.0'}
@@ -812,6 +846,15 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       whatwg-encoding: 2.0.0
+    dev: false
+
+  /htmlparser2/4.1.0:
+    resolution: {integrity: sha512-4zDq1a1zhE4gQso/c5LP1OtrhYTncXNSpvJYtWJBtXAETPlMfi3IFNjGuQbYLuVY4ZR0QMqRVvo4Pdy9KLyP8Q==}
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 3.3.0
+      domutils: 2.8.0
+      entities: 2.2.0
     dev: false
 
   /htmlparser2/7.2.0:
@@ -1430,6 +1473,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       min-indent: 1.0.1
+    dev: false
+
+  /striptags/3.2.0:
+    resolution: {integrity: sha512-g45ZOGzHDMe2bdYMdIvdAfCQkCTDMGBazSw1ypMowwGIee7ZQ5dU0rBJ8Jqgl+jAKIv4dbeE1jscZq9wid1Tkw==}
     dev: false
 
   /stylus/0.57.0:

@@ -65,7 +65,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ""
-  per_page: 10
+  per_page: 6
   order_by: -date
 
 # Category & Tag
@@ -100,22 +100,19 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 
+#hexo-generator-tag
+tag_generator:
+  enable_index_page: false
+
+# hexo-word-counter
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+
 ## Themes: https://hexo.io/themes/
 theme: next
-theme_config:
-  # Schemes
-  #scheme: Muse
-  #scheme: Mist
-  #scheme: Pisces
-  scheme: Gemini
-  # Allow to cache content generation.
-  cache:
-    enable: true
-  # Remove unnecessary files after hexo generate.
-  minify: false
-  sidebar:
-    position: left #right/left
-    display: hide
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
