@@ -6,7 +6,7 @@
 title: Yeelightの月湾
 subtitle: 与其凋零，不如燃烧
 description: 我只想观星赏月，与你
-keywords: #网站的关键词。支持多个关键词。
+keywords: "个人bolg , 初步学习 , 学习日志" # 网站的关键词。支持多个关键词。
 author: Yeelight
 language: zh-CN
 timezone: Asia/Shanghai
@@ -14,8 +14,8 @@ timezone: Asia/Shanghai
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://feiniaobf.github.io/
-root: /
-permalink: :year/:month/:day/:title/ #文章的永久链接格式
+root: /FeiNiaoBF.github.io/
+permalink: :year/:month/:category/:title/ #文章的永久链接格式
 permalink_defaults: #永久链接中各部分的默认值
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -111,9 +111,6 @@ symbols_count_time:
   total_symbols: true # 網頁底部字數統計顯示
   total_time: true # 網頁底部閱讀時間顯示
   exclude_codeblock: false # 字數統計是否排除程式碼
-  awl: 4 # 平均文字長度，中文為 2, 英文為 5, 預設為 4
-  wpm: 275 # 一分鐘閱讀字數
-  suffix: "分鐘"
 
 ## Themes: https://hexo.io/themes/
 theme: next
