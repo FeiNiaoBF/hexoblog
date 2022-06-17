@@ -97,6 +97,7 @@ menu:
   tags: /tags/ || fa fa-duotone fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-light fa-box-open
+  和我有约: /comminicate/ || fa fa-regular fa-comment-dots
   #schedule: /schedule/ || fa fa-regular fa-calendar-check
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -521,7 +522,7 @@ math:
 
 # Easily enable fast Ajax navigation on your website.
 # For more information: https://github.com/next-theme/pjax
-pjax: false
+pjax: true
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox/
@@ -564,7 +565,7 @@ quicklink:
 waline:
   enable: true #是否开启
   serverURL: waline-server-d3qzlrn4a-feiniaobf.vercel.app # Waline #服务端地址，我们这里就是上面部署的 Vercel 地址
-  placeholder: 汝问之有道,吾答之有疑 # #评论框的默认文字
+  placeholder: "汝问之有道,吾答之有疑" # #评论框的默认文字
   avatar: mm # 头像风格
   meta: [nick, mail, link] # 自定义评论框上面的三个输入框的内容
   pageSize: 10 # 评论数量多少时显示分页
@@ -711,8 +712,8 @@ clarity_analytics: # <project_id>
 # You can visit https://www.leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
   enable: false
-  app_id: # <your app id>
-  app_key: # <your app key>
+  app_id: fsis1jFex1HMt4vF7tcLzthe-MdYXbMMI # <your app id>
+  app_key: 1qd46NeIItpE8Cmhe53R9rfo # <your app key>
   # Required for apps from CN region
   server_url: # <your server url>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
